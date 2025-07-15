@@ -7,7 +7,34 @@
 
 ## Boas-vindas
 
-- **O que você aprenderá:** As diferentes formas de interação com o Copilot para explicar, escrever, depurar e desenvolver código.
+## Como criar, publicar e trabalhar com branches no Git
+
+Para criar uma nova branch e publicá-la no repositório remoto, utilize os comandos abaixo no terminal integrado do VS Code ou no Codespace:
+
+```bash
+git checkout -b nome-da-branch
+git push -u origin nome-da-branch
+```
+
+Substitua `nome-da-branch` pelo nome desejado para sua branch (por exemplo, `teste_k`).
+
+- `git checkout -b nome-da-branch`: Cria e muda para a nova branch.
+- `git push -u origin nome-da-branch`: Publica a branch no repositório remoto e define o upstream.
+
+Você pode alternar entre branches com `git checkout nome-da-branch` e listar todas as branches com `git branch`.
+
+---
+
+## Como interagir com o GitHub Copilot
+
+O Copilot pode ajudar a explicar, escrever, depurar e desenvolver código de várias formas:
+
+- **Explicação de código:** Selecione um trecho de código e peça ao Copilot para explicar o que ele faz.
+- **Geração de código:** Escreva um comentário descrevendo o que deseja implementar e o Copilot sugerirá o código correspondente.
+- **Depuração:** Solicite sugestões de correção para erros ou melhorias no código.
+- **Desenvolvimento colaborativo:** Use o Copilot para acelerar tarefas repetitivas, gerar testes ou explorar diferentes abordagens para um problema.
+
+Experimente interagir com o Copilot usando comandos, comentários ou selecionando trechos de código para obter sugestões contextuais.
 - **O que você construirá:** Você irá guiar o Copilot para atualizar o site de atividades extracurriculares da Escola Secundária Mergington.
 
 - **Pré-requisitos:**
